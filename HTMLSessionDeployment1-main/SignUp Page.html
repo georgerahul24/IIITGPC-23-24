@@ -1,0 +1,94 @@
+<html>
+<head>
+    <title>Sign UpPage</title></head>
+<body>
+<H1>Sign Up</H1>
+<form method="post" action="SignUpSuccessPage.html">
+    <table>
+        <tr>
+            <td>
+                <label for="name">
+                    Name:
+                </label>
+            </td>
+            <td>
+                <input type="text" id="name" name="name">
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <label for="username">Username:</label>
+            </td>
+            <td>
+                <input type="text" id="username" name="username">
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <label for="password">
+                    Password:
+                </label>
+
+            </td>
+            <td>
+                <input type="password" id="password" name="password">
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <label for="verifyPassword">
+                    Verify Password:
+                </label>
+            </td>
+            <td>
+                <input type="password" id="verifyPassword" name="verifyPassword">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Gender:
+            </td>
+            <td>
+                <input type="radio" id="genderMale" name="gender" value="male">
+                <label for="genderMale">Male</label>
+                <input type="radio" id="genderFemale" name="gender" value="female">
+                <label for="genderFemale">Female</label>
+                <input type="radio" id="genderOthers" name="gender" value="others">
+                <label for="genderOthers">Others</label>
+                <input type="radio" id="genderPNTS" name="gender" value="PNTS">
+                <label for="genderPNTS">Prefer not to say</label>
+            </td>
+        </tr>
+    </table>
+    <H3><u>Terms and Condition</u></H3>
+    <ol>
+        <li><b>Eligibility:</b> Users must meet certain age or other eligibility criteria to create an account.</li>
+        <li><b>Account Security:</b> Users are responsible for maintaining the security of their account credentials.
+        </li>
+        <li><b>User Content:</b> Specify that users are responsible for the content they post and prohibit illegal or
+            offensive
+            content.
+        </li>
+        <li><b>Intellectual Property:</b> State that all website/app content is protected by copyright and trademark
+            laws.
+        </li>
+        <li><b>Termination:</b> Clarify the circumstances under which the service can terminate or suspend user
+            accounts.
+        </li>
+    </ol>
+    <p><input type="checkbox" id="TandC" name="TandC"> <label for="TandC">I accept all the terms and conditions.</label>
+    </p>
+    <a href="SignUpSuccessPage.html">
+        <button type="submit" name="signUp">Sign Up!</button>
+    </a>
+</form>
+<p>Already have an account? <a href="Login%20Page.html">Log In</a></p>
+</body>
+</html>
